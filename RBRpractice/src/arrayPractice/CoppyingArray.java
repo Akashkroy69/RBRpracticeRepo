@@ -6,7 +6,7 @@ public class CoppyingArray {
 	int[] arrA = { 1, 2, 3 };/* To initialize this, either we do this or we can do the following
 	                            if we just want to declare here and want to initialize in seperate line
 	                            arrA= new int[]{4,5,6}
-	                            in other line java doesn't allow this synax for initializing:
+	                            in other line java doesn't allow this syntax for initializing:
 	                            arrA={1,2,3}*/ 
 	
 	int[] arrB;              
