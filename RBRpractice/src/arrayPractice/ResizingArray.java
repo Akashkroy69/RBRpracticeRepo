@@ -10,7 +10,7 @@ public class ResizingArray {
 	/// USED VERY FREQUENTLY BY OTHER PROGRAMS.
 	/// SO THAT THEY CAN CALLL IT BY CLASS NAME.
 
-	public static char[] deleteAndResize(char[] data, int deletePosition) {
+	public static char[] deleteAndResizeArray(char[] data, int deletePosition) {
 		if (deletePosition < data.length) {
 			char[] temp = new char[data.length - 1];
 			/* A new object will be created here which holds array of character. */
@@ -46,7 +46,7 @@ public class ResizingArray {
 
 		System.out.println("Enter the index which you want to delete.");
 		int indexPosition = index.nextInt();
-		data = ResizingArray.deleteAndResize(data, indexPosition);
+		data = ResizingArray.deleteAndResizeArray(data, indexPosition);
 
 		/*
 		 * after calling deleteAndResize method the object 'a', 'k', 'a', 's', 'h' }
