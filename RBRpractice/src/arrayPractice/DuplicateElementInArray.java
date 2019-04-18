@@ -14,7 +14,7 @@ public class DuplicateElementInArray {
 			number[i] = scanObjScanner.nextInt();
 		}
 		Arrays.sort(number);
-		System.out.println("Printin after sorting the numbers: ");
+		System.out.println("Printing after sorting the numbers: ");
 		for(int num:number)
 			System.out.print(num+" ");
 		System.out.println();
