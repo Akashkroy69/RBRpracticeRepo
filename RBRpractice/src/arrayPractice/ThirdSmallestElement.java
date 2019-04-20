@@ -2,6 +2,15 @@ package arrayPractice;
 
 import java.util.Arrays;
 
+/*
+ * 
+ * 
+ * 
+ * 8. Write a program to find third smallest element in the given array?
+ * 
+ * 
+ * 
+ * */
 public class ThirdSmallestElement {
 	public static void thirdSmallest(int[] array) {
 		int count = 0;
@@ -24,7 +33,7 @@ public class ThirdSmallestElement {
 	}
 
 	public static void main(String[] args) {
-		int[] array = { 1, 1,2,2,3 };
+		int[] array = { 1, 1, 2, 2, 3 };
 
 		thirdSmallest(array);
 	}
