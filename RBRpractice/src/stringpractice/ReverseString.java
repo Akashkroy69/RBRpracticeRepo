@@ -20,7 +20,7 @@ public class ReverseString {
 		Scanner obScanner=new Scanner(System.in);
 		System.out.println("Enter a String: ");
 		string=obScanner.nextLine();
-		System.out.println(string.length());
+		
 		string=reverse(string);
 		System.out.println("Here is the string after reversing : "+string);
 		obScanner.close();
