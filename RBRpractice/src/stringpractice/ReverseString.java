@@ -9,6 +9,15 @@ public class ReverseString {
 		for (int i = stringtobereversed.length() - 1; i >= 0; i--) {
 			reversedString = reversedString + stringtobereversed.charAt(i);
 			/* need to check the program and property of java  later*/
+			/*
+             *         ^
+             *         |
+             *         |
+             *     PROBLEM RESOLVED: it was just that in function I had written wrong condition case
+             *     in for loop in line:9
+             * 
+             * 
+             * */
 
 		}
 
