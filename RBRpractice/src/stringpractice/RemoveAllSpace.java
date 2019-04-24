@@ -2,6 +2,19 @@ package stringpractice;
 
 import java.util.Scanner;
 
+/*
+ * 
+ * 
+ * 
+ * 
+ * 
+ * Write a java program to remove the space in the given string?
+		Input: Ravindra babu ravula
+		Output: Ravindrababuravula
+*
+*
+*
+*/
 public class RemoveAllSpace {
 
 	public static void removeSpacesMethodOne(String string) {
@@ -21,6 +34,7 @@ public class RemoveAllSpace {
 		}
 
 		string = stringBuilder.toString();
+		
 		System.out.println("By Method 2: "+string);
 
 	}
