@@ -13,9 +13,10 @@ import java.util.Scanner;
 		Example: input : ravindra
 				 output : aadinrrv
 				 
-*
-* 
-* 
+*-----------------------------------------
+* THIS PROGRAM NEEDS TO BE CHECKED
+* STATUS: NOT GIVING THE EXPECTED OUTPUT
+*----------------------------------------- 
 * 
 * */
 public class SortingCharInString {
