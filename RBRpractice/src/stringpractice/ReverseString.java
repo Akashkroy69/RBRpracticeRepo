@@ -1,5 +1,11 @@
 package stringpractice;
-
+/*
+ * 
+ * 
+ * program for reversing a string w/o any help of default method or stringBuilder and stringBuffer class.
+ * 
+ * 
+ * */
 import java.util.Scanner;
 
 public class ReverseString {
