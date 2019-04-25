@@ -36,10 +36,12 @@ public class ReversingStringWRTwords {
 
 	public static void reverse(String string) {
 		String[] locString = string.split(" ");
-		// instead of using string we can use stringBuilder/StringBuffer class's append
-		// method too whose
-		// returned obj later could
-		// be converted in to String class's string.
+		/*
+		 * instead of using string we can use mutable //stringBuilder/StringBuffer
+		 * class's append method too whose returned obj later could be converted in to
+		 * String class's string.
+		 * 
+		 */ 
 		String tempString = "";
 		for (int i = locString.length - 1; i >= 0; i--) {
 
