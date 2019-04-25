@@ -1,0 +1,32 @@
+1. Write a Java program that counts vowels in a string?
+2. PALINDROME: Write a program that takes an English word and test whether or not this word is a palindrome. (e.g. a word that reads the same both forwards and backwards such as “level”). 
+3. Write a java program to reverse a string without using reverse() method?
+4. Given a string s1 and a string s2, write a java method to say whether s2 is a rotation of s1 ?
+	Example : given s1 = abcd and s2 = cdab, return true, given s1 = abcd, and s2 = acbd , return false
+5. Write a java program to remove characters from the first string which are present in the second string?
+
+6. Write a java program to print all the duplicate characteres in the given string?
+
+7. Write a java program to find the most repeted character in the given string?
+
+8. Write a java program to reverse a words in a given string?
+Example : i love raudra and ravindra
+		  ravindra and raudra love i
+
+9. Given a string, find its first non-repeating character?
+	Example : Given String : ravindra
+					Output : v
+10. Write a java program to sort the given string?
+	Example: input : ravindra
+			 output : aadinrrv
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q1. Write a java program to remove the space in the given string?
+	Input: Ravindra babu ravula
+	Output: Ravindrababuravula
+Q2. Write a java program to count the number of times token string appeared in given target string? 
+	Input: TargetString : java is a programming language. It is mostly used in big data applications
+	       TokenString: is
+	Output: 2
+ 
