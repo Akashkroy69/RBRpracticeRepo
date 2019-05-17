@@ -3,7 +3,7 @@ package collectionPractice;
 import java.util.Scanner;
 
 public class LinkedList<E> {
-	E e;
+	
 	private static LinkedList<?> headLinkedList;
 	LinkedList<E> nextNode, lastNode;
 	private E data;
@@ -15,14 +15,14 @@ public class LinkedList<E> {
 	}
 
 	// At the time of instantiating a new object one node will be created
-	public LinkedList(E e) {
-		this.data = e;
+	public LinkedList(E data) {
+		this.data = data;
 		nextNode = null;
 
 	}
 
-	public LinkedList<E> insert(E e) {
-		LinkedList<E> newNodeLinkedList = new LinkedList<E>(e);
+	public LinkedList<E> insert(E data) {
+		LinkedList<E> newNodeLinkedList = new LinkedList<E>(data);
 
 		if (headLinkedList == null) {
 			headLinkedList = newNodeLinkedList;
